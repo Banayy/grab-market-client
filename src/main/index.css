@@ -1,39 +1,4 @@
 /* *선택자 : 모든 태그를 선택 */
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-#header {
-  height: 64px;
-  display: flex;
-  justify-content: center;
-  border-bottom: 1px solid grey;
-}
-
-#body {
-  height: 100vh;
-  width: 1024px;
-  margin: 0 auto;
-  padding-bottom: 36px;
-}
-
-#footer {
-  height: 200px;
-  background-color: rgb(230, 230, 230);
-}
-
-#header-area {
-  width: 1024px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-#header-area > img {
-  width: 128px;
-  height: 38px;
-}
 
 #banner {
   height: 300px;

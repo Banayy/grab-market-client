@@ -1,6 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: normal;
+}
+
 html,
 body,
 #root,
 #root > div {
   height: 100%;
+}
+
+#header {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+}
+
+#header-area {
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-area img {
+  width: 128px;
+  height: 38px;
+}
+
+#body {
+  height: 100vh;
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 36px;
+}
+
+#footer {
+  height: 200px;
+  background-color: rgb(230, 230, 230);
 }

@@ -63,7 +63,7 @@ function MainPage() {
                 </div>
                 <div className="product-contents">
                   <div className="product-name">{product.name}</div>
-                  <div className="product-price">{product.price}</div>
+                  <div className="product-price">{product.price}원</div>
                   <div className="product-footer">
                     <div className="product-seller">
                       <img
